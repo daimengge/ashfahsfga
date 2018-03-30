@@ -4,9 +4,9 @@
 	
 	<table border="2" cellspacing="0" cellpadding="0">
 		<tr v-for="i in arr">
-<td>{{i.id|zongshu}}</td>
+<td>{{i.id|zongshu}} </td>
 <td>{{i.tit|zongshu}}</td>
-<td>{{i.con|zongshu}}</td>
+<td>{{i.con|zongshu}}<button>X</button><button id="jia">+</button></td>
 
 
 </tr>
