@@ -8,9 +8,9 @@
 <td>内容3</td>
 </tr>-->
 <tr v-for="i in arr">
-<td>{{i.id}}</td>
-<td>{{i.tit}}</td>
-<td>{{i.con}}</td>
+<td>{{i.id|zongshu}}</td>
+<td>{{i.tit|zongshu}}</td>
+<td>{{i.con|zongshu}}</td>
 </tr>
 
 </table>
