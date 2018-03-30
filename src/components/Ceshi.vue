@@ -1,16 +1,14 @@
 <template>
 
 <div>
-<table>
-<!--<tr>
-<td>内容1</td>
-<td>内容2</td>
-<td>内容3</td>
-</tr>-->
-<tr v-for="i in arr">
+	
+	<table border="2" cellspacing="0" cellpadding="0">
+		<tr v-for="i in arr">
 <td>{{i.id|zongshu}}</td>
 <td>{{i.tit|zongshu}}</td>
 <td>{{i.con|zongshu}}</td>
+
+
 </tr>
 
 </table>
@@ -39,4 +37,7 @@
 </script>
 
 <style>
+	table{
+		border: 1 solid red;
+	}
 </style>
